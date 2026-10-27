@@ -1,0 +1,309 @@
+kpi_id,kpi,kommun_id,kommun,year,value
+N09026,"Nettokostnad bibliotek, kr/inv",0180,Stockholm,2019,353.269
+N09026,"Nettokostnad bibliotek, kr/inv",0180,Stockholm,2020,343.696
+N09026,"Nettokostnad bibliotek, kr/inv",0180,Stockholm,2021,353.012
+N09026,"Nettokostnad bibliotek, kr/inv",0180,Stockholm,2022,372.152
+N09026,"Nettokostnad bibliotek, kr/inv",0180,Stockholm,2023,392.631
+N09026,"Nettokostnad bibliotek, kr/inv",0180,Stockholm,2024,419.999
+N09026,"Nettokostnad bibliotek, kr/inv",0180,Stockholm,2025,446.671
+N09026,"Nettokostnad bibliotek, kr/inv",0380,Uppsala,2019,431.743
+N09026,"Nettokostnad bibliotek, kr/inv",0380,Uppsala,2020,439.242
+N09026,"Nettokostnad bibliotek, kr/inv",0380,Uppsala,2021,449.275
+N09026,"Nettokostnad bibliotek, kr/inv",0380,Uppsala,2022,456.463
+N09026,"Nettokostnad bibliotek, kr/inv",0380,Uppsala,2023,476.809
+N09026,"Nettokostnad bibliotek, kr/inv",0380,Uppsala,2024,510.983
+N09026,"Nettokostnad bibliotek, kr/inv",0380,Uppsala,2025,523.201
+N09026,"Nettokostnad bibliotek, kr/inv",1280,Malmö,2019,460.446
+N09026,"Nettokostnad bibliotek, kr/inv",1280,Malmö,2020,461.7
+N09026,"Nettokostnad bibliotek, kr/inv",1280,Malmö,2021,448.823
+N09026,"Nettokostnad bibliotek, kr/inv",1280,Malmö,2022,462.139
+N09026,"Nettokostnad bibliotek, kr/inv",1280,Malmö,2023,501.393
+N09026,"Nettokostnad bibliotek, kr/inv",1280,Malmö,2024,473.811
+N09026,"Nettokostnad bibliotek, kr/inv",1280,Malmö,2025,478.645
+N09026,"Nettokostnad bibliotek, kr/inv",1281,Lund,2019,517.437
+N09026,"Nettokostnad bibliotek, kr/inv",1281,Lund,2020,487.57
+N09026,"Nettokostnad bibliotek, kr/inv",1281,Lund,2021,513.15
+N09026,"Nettokostnad bibliotek, kr/inv",1281,Lund,2022,548.036
+N09026,"Nettokostnad bibliotek, kr/inv",1281,Lund,2023,593.424
+N09026,"Nettokostnad bibliotek, kr/inv",1281,Lund,2024,624.143
+N09026,"Nettokostnad bibliotek, kr/inv",1281,Lund,2025,595.951
+N09026,"Nettokostnad bibliotek, kr/inv",1283,Helsingborg,2019,431.038
+N09026,"Nettokostnad bibliotek, kr/inv",1283,Helsingborg,2020,443.636
+N09026,"Nettokostnad bibliotek, kr/inv",1283,Helsingborg,2021,453.864
+N09026,"Nettokostnad bibliotek, kr/inv",1283,Helsingborg,2022,462.626
+N09026,"Nettokostnad bibliotek, kr/inv",1283,Helsingborg,2023,480.437
+N09026,"Nettokostnad bibliotek, kr/inv",1283,Helsingborg,2024,509.879
+N09026,"Nettokostnad bibliotek, kr/inv",1283,Helsingborg,2025,545.819
+N09026,"Nettokostnad bibliotek, kr/inv",1285,Eslöv,2019,456.13
+N09026,"Nettokostnad bibliotek, kr/inv",1285,Eslöv,2020,449.198
+N09026,"Nettokostnad bibliotek, kr/inv",1285,Eslöv,2021,443.009
+N09026,"Nettokostnad bibliotek, kr/inv",1285,Eslöv,2022,491.139
+N09026,"Nettokostnad bibliotek, kr/inv",1285,Eslöv,2023,428.239
+N09026,"Nettokostnad bibliotek, kr/inv",1285,Eslöv,2024,456.446
+N09026,"Nettokostnad bibliotek, kr/inv",1285,Eslöv,2025,464.67
+N09026,"Nettokostnad bibliotek, kr/inv",1480,Göteborg,2019,442.231
+N09026,"Nettokostnad bibliotek, kr/inv",1480,Göteborg,2020,441.793
+N09026,"Nettokostnad bibliotek, kr/inv",1480,Göteborg,2021,446.989
+N09026,"Nettokostnad bibliotek, kr/inv",1480,Göteborg,2022,470.11
+N09026,"Nettokostnad bibliotek, kr/inv",1480,Göteborg,2023,516.04
+N09026,"Nettokostnad bibliotek, kr/inv",1480,Göteborg,2024,536.464
+N09026,"Nettokostnad bibliotek, kr/inv",1480,Göteborg,2025,532.571
+N09801,"Lån från kommunala bibliotek, antal/inv",0180,Stockholm,2019,4.036
+N09801,"Lån från kommunala bibliotek, antal/inv",0180,Stockholm,2020,2.977
+N09801,"Lån från kommunala bibliotek, antal/inv",0180,Stockholm,2021,3.0
+N09801,"Lån från kommunala bibliotek, antal/inv",0180,Stockholm,2022,3.57
+N09801,"Lån från kommunala bibliotek, antal/inv",0180,Stockholm,2023,3.706
+N09801,"Lån från kommunala bibliotek, antal/inv",0180,Stockholm,2024,4.03
+N09801,"Lån från kommunala bibliotek, antal/inv",0180,Stockholm,2025,3.831
+N09801,"Lån från kommunala bibliotek, antal/inv",0380,Uppsala,2019,7.346
+N09801,"Lån från kommunala bibliotek, antal/inv",0380,Uppsala,2020,6.726
+N09801,"Lån från kommunala bibliotek, antal/inv",0380,Uppsala,2021,5.635
+N09801,"Lån från kommunala bibliotek, antal/inv",0380,Uppsala,2022,6.471
+N09801,"Lån från kommunala bibliotek, antal/inv",0380,Uppsala,2023,6.45
+N09801,"Lån från kommunala bibliotek, antal/inv",0380,Uppsala,2024,6.51
+N09801,"Lån från kommunala bibliotek, antal/inv",0380,Uppsala,2025,6.974
+N09801,"Lån från kommunala bibliotek, antal/inv",1280,Malmö,2019,4.545
+N09801,"Lån från kommunala bibliotek, antal/inv",1280,Malmö,2020,4.846
+N09801,"Lån från kommunala bibliotek, antal/inv",1280,Malmö,2021,4.18
+N09801,"Lån från kommunala bibliotek, antal/inv",1280,Malmö,2022,4.685
+N09801,"Lån från kommunala bibliotek, antal/inv",1280,Malmö,2023,4.937
+N09801,"Lån från kommunala bibliotek, antal/inv",1280,Malmö,2024,4.758
+N09801,"Lån från kommunala bibliotek, antal/inv",1280,Malmö,2025,5.071
+N09801,"Lån från kommunala bibliotek, antal/inv",1281,Lund,2019,8.389
+N09801,"Lån från kommunala bibliotek, antal/inv",1281,Lund,2020,8.87
+N09801,"Lån från kommunala bibliotek, antal/inv",1281,Lund,2021,6.33
+N09801,"Lån från kommunala bibliotek, antal/inv",1281,Lund,2022,6.71
+N09801,"Lån från kommunala bibliotek, antal/inv",1281,Lund,2023,7.813
+N09801,"Lån från kommunala bibliotek, antal/inv",1281,Lund,2024,7.94
+N09801,"Lån från kommunala bibliotek, antal/inv",1281,Lund,2025,7.451
+N09801,"Lån från kommunala bibliotek, antal/inv",1283,Helsingborg,2019,4.33
+N09801,"Lån från kommunala bibliotek, antal/inv",1283,Helsingborg,2020,4.129
+N09801,"Lån från kommunala bibliotek, antal/inv",1283,Helsingborg,2021,3.411
+N09801,"Lån från kommunala bibliotek, antal/inv",1283,Helsingborg,2022,3.943
+N09801,"Lån från kommunala bibliotek, antal/inv",1283,Helsingborg,2023,3.678
+N09801,"Lån från kommunala bibliotek, antal/inv",1283,Helsingborg,2024,3.849
+N09801,"Lån från kommunala bibliotek, antal/inv",1283,Helsingborg,2025,3.386
+N09801,"Lån från kommunala bibliotek, antal/inv",1285,Eslöv,2019,5.497
+N09801,"Lån från kommunala bibliotek, antal/inv",1285,Eslöv,2020,5.319
+N09801,"Lån från kommunala bibliotek, antal/inv",1285,Eslöv,2021,4.148
+N09801,"Lån från kommunala bibliotek, antal/inv",1285,Eslöv,2022,4.442
+N09801,"Lån från kommunala bibliotek, antal/inv",1285,Eslöv,2023,4.073
+N09801,"Lån från kommunala bibliotek, antal/inv",1285,Eslöv,2024,4.06
+N09801,"Lån från kommunala bibliotek, antal/inv",1285,Eslöv,2025,4.254
+N09801,"Lån från kommunala bibliotek, antal/inv",1480,Göteborg,2019,6.155
+N09801,"Lån från kommunala bibliotek, antal/inv",1480,Göteborg,2020,5.775
+N09801,"Lån från kommunala bibliotek, antal/inv",1480,Göteborg,2021,5.319
+N09801,"Lån från kommunala bibliotek, antal/inv",1480,Göteborg,2022,5.486
+N09801,"Lån från kommunala bibliotek, antal/inv",1480,Göteborg,2023,5.534
+N09801,"Lån från kommunala bibliotek, antal/inv",1480,Göteborg,2024,5.349
+N09801,"Lån från kommunala bibliotek, antal/inv",1480,Göteborg,2025,5.374
+N09805,"Aktivitetstillfällen barn och unga, antal/1000 inv 0-18 år",0180,Stockholm,2019,30.739
+N09805,"Aktivitetstillfällen barn och unga, antal/1000 inv 0-18 år",0180,Stockholm,2020,6.91
+N09805,"Aktivitetstillfällen barn och unga, antal/1000 inv 0-18 år",0180,Stockholm,2021,10.161
+N09805,"Aktivitetstillfällen barn och unga, antal/1000 inv 0-18 år",0180,Stockholm,2022,19.943
+N09805,"Aktivitetstillfällen barn och unga, antal/1000 inv 0-18 år",0180,Stockholm,2023,25.047
+N09805,"Aktivitetstillfällen barn och unga, antal/1000 inv 0-18 år",0180,Stockholm,2024,23.841
+N09805,"Aktivitetstillfällen barn och unga, antal/1000 inv 0-18 år",0180,Stockholm,2025,32.772
+N09805,"Aktivitetstillfällen barn och unga, antal/1000 inv 0-18 år",0380,Uppsala,2019,27.339
+N09805,"Aktivitetstillfällen barn och unga, antal/1000 inv 0-18 år",0380,Uppsala,2020,15.571
+N09805,"Aktivitetstillfällen barn och unga, antal/1000 inv 0-18 år",0380,Uppsala,2021,11.828
+N09805,"Aktivitetstillfällen barn och unga, antal/1000 inv 0-18 år",0380,Uppsala,2022,20.872
+N09805,"Aktivitetstillfällen barn och unga, antal/1000 inv 0-18 år",0380,Uppsala,2023,21.423
+N09805,"Aktivitetstillfällen barn och unga, antal/1000 inv 0-18 år",0380,Uppsala,2024,26.652
+N09805,"Aktivitetstillfällen barn och unga, antal/1000 inv 0-18 år",0380,Uppsala,2025,26.904
+N09805,"Aktivitetstillfällen barn och unga, antal/1000 inv 0-18 år",1280,Malmö,2019,25.218
+N09805,"Aktivitetstillfällen barn och unga, antal/1000 inv 0-18 år",1280,Malmö,2020,12.079
+N09805,"Aktivitetstillfällen barn och unga, antal/1000 inv 0-18 år",1280,Malmö,2021,12.887
+N09805,"Aktivitetstillfällen barn och unga, antal/1000 inv 0-18 år",1280,Malmö,2022,13.773
+N09805,"Aktivitetstillfällen barn och unga, antal/1000 inv 0-18 år",1280,Malmö,2023,18.176
+N09805,"Aktivitetstillfällen barn och unga, antal/1000 inv 0-18 år",1280,Malmö,2024,18.953
+N09805,"Aktivitetstillfällen barn och unga, antal/1000 inv 0-18 år",1280,Malmö,2025,22.813
+N09805,"Aktivitetstillfällen barn och unga, antal/1000 inv 0-18 år",1281,Lund,2019,39.623
+N09805,"Aktivitetstillfällen barn och unga, antal/1000 inv 0-18 år",1281,Lund,2020,19.848
+N09805,"Aktivitetstillfällen barn och unga, antal/1000 inv 0-18 år",1281,Lund,2021,14.793
+N09805,"Aktivitetstillfällen barn och unga, antal/1000 inv 0-18 år",1281,Lund,2022,32.0
+N09805,"Aktivitetstillfällen barn och unga, antal/1000 inv 0-18 år",1281,Lund,2023,43.368
+N09805,"Aktivitetstillfällen barn och unga, antal/1000 inv 0-18 år",1281,Lund,2024,45.238
+N09805,"Aktivitetstillfällen barn och unga, antal/1000 inv 0-18 år",1281,Lund,2025,47.234
+N09805,"Aktivitetstillfällen barn och unga, antal/1000 inv 0-18 år",1283,Helsingborg,2019,20.192
+N09805,"Aktivitetstillfällen barn och unga, antal/1000 inv 0-18 år",1283,Helsingborg,2020,14.459
+N09805,"Aktivitetstillfällen barn och unga, antal/1000 inv 0-18 år",1283,Helsingborg,2021,20.767
+N09805,"Aktivitetstillfällen barn och unga, antal/1000 inv 0-18 år",1283,Helsingborg,2022,25.21
+N09805,"Aktivitetstillfällen barn och unga, antal/1000 inv 0-18 år",1283,Helsingborg,2023,19.972
+N09805,"Aktivitetstillfällen barn och unga, antal/1000 inv 0-18 år",1283,Helsingborg,2024,19.121
+N09805,"Aktivitetstillfällen barn och unga, antal/1000 inv 0-18 år",1283,Helsingborg,2025,19.227
+N09805,"Aktivitetstillfällen barn och unga, antal/1000 inv 0-18 år",1285,Eslöv,2019,103.617
+N09805,"Aktivitetstillfällen barn och unga, antal/1000 inv 0-18 år",1285,Eslöv,2020,46.781
+N09805,"Aktivitetstillfällen barn och unga, antal/1000 inv 0-18 år",1285,Eslöv,2021,53.019
+N09805,"Aktivitetstillfällen barn och unga, antal/1000 inv 0-18 år",1285,Eslöv,2022,53.311
+N09805,"Aktivitetstillfällen barn och unga, antal/1000 inv 0-18 år",1285,Eslöv,2023,26.839
+N09805,"Aktivitetstillfällen barn och unga, antal/1000 inv 0-18 år",1285,Eslöv,2024,39.498
+N09805,"Aktivitetstillfällen barn och unga, antal/1000 inv 0-18 år",1285,Eslöv,2025,20.165
+N09805,"Aktivitetstillfällen barn och unga, antal/1000 inv 0-18 år",1480,Göteborg,2019,29.319
+N09805,"Aktivitetstillfällen barn och unga, antal/1000 inv 0-18 år",1480,Göteborg,2020,12.899
+N09805,"Aktivitetstillfällen barn och unga, antal/1000 inv 0-18 år",1480,Göteborg,2021,10.397
+N09805,"Aktivitetstillfällen barn och unga, antal/1000 inv 0-18 år",1480,Göteborg,2022,20.359
+N09805,"Aktivitetstillfällen barn och unga, antal/1000 inv 0-18 år",1480,Göteborg,2023,29.68
+N09805,"Aktivitetstillfällen barn och unga, antal/1000 inv 0-18 år",1480,Göteborg,2024,32.799
+N09805,"Aktivitetstillfällen barn och unga, antal/1000 inv 0-18 år",1480,Göteborg,2025,36.036
+N09807,"Fysiska besök vid kommunala bibliotek, antal/inv",0180,Stockholm,2019,5.174
+N09807,"Fysiska besök vid kommunala bibliotek, antal/inv",0180,Stockholm,2020,2.867
+N09807,"Fysiska besök vid kommunala bibliotek, antal/inv",0180,Stockholm,2021,2.561
+N09807,"Fysiska besök vid kommunala bibliotek, antal/inv",0180,Stockholm,2022,4.393
+N09807,"Fysiska besök vid kommunala bibliotek, antal/inv",0180,Stockholm,2023,4.608
+N09807,"Fysiska besök vid kommunala bibliotek, antal/inv",0180,Stockholm,2024,4.577
+N09807,"Fysiska besök vid kommunala bibliotek, antal/inv",0180,Stockholm,2025,4.802
+N09807,"Fysiska besök vid kommunala bibliotek, antal/inv",0380,Uppsala,2019,5.308
+N09807,"Fysiska besök vid kommunala bibliotek, antal/inv",0380,Uppsala,2020,3.808
+N09807,"Fysiska besök vid kommunala bibliotek, antal/inv",0380,Uppsala,2021,2.775
+N09807,"Fysiska besök vid kommunala bibliotek, antal/inv",0380,Uppsala,2022,4.524
+N09807,"Fysiska besök vid kommunala bibliotek, antal/inv",0380,Uppsala,2023,4.744
+N09807,"Fysiska besök vid kommunala bibliotek, antal/inv",0380,Uppsala,2024,4.663
+N09807,"Fysiska besök vid kommunala bibliotek, antal/inv",0380,Uppsala,2025,4.69
+N09807,"Fysiska besök vid kommunala bibliotek, antal/inv",1280,Malmö,2019,5.798
+N09807,"Fysiska besök vid kommunala bibliotek, antal/inv",1280,Malmö,2020,4.019
+N09807,"Fysiska besök vid kommunala bibliotek, antal/inv",1280,Malmö,2021,2.684
+N09807,"Fysiska besök vid kommunala bibliotek, antal/inv",1280,Malmö,2022,3.904
+N09807,"Fysiska besök vid kommunala bibliotek, antal/inv",1280,Malmö,2023,4.185
+N09807,"Fysiska besök vid kommunala bibliotek, antal/inv",1280,Malmö,2024,4.665
+N09807,"Fysiska besök vid kommunala bibliotek, antal/inv",1280,Malmö,2025,4.95
+N09807,"Fysiska besök vid kommunala bibliotek, antal/inv",1281,Lund,2019,10.002
+N09807,"Fysiska besök vid kommunala bibliotek, antal/inv",1281,Lund,2020,7.029
+N09807,"Fysiska besök vid kommunala bibliotek, antal/inv",1281,Lund,2021,4.053
+N09807,"Fysiska besök vid kommunala bibliotek, antal/inv",1281,Lund,2022,8.17
+N09807,"Fysiska besök vid kommunala bibliotek, antal/inv",1281,Lund,2023,8.687
+N09807,"Fysiska besök vid kommunala bibliotek, antal/inv",1281,Lund,2024,9.414
+N09807,"Fysiska besök vid kommunala bibliotek, antal/inv",1281,Lund,2025,8.642
+N09807,"Fysiska besök vid kommunala bibliotek, antal/inv",1283,Helsingborg,2019,6.632
+N09807,"Fysiska besök vid kommunala bibliotek, antal/inv",1283,Helsingborg,2020,5.145
+N09807,"Fysiska besök vid kommunala bibliotek, antal/inv",1283,Helsingborg,2021,3.037
+N09807,"Fysiska besök vid kommunala bibliotek, antal/inv",1283,Helsingborg,2022,4.511
+N09807,"Fysiska besök vid kommunala bibliotek, antal/inv",1283,Helsingborg,2023,4.582
+N09807,"Fysiska besök vid kommunala bibliotek, antal/inv",1283,Helsingborg,2024,4.851
+N09807,"Fysiska besök vid kommunala bibliotek, antal/inv",1283,Helsingborg,2025,4.036
+N09807,"Fysiska besök vid kommunala bibliotek, antal/inv",1285,Eslöv,2019,4.73
+N09807,"Fysiska besök vid kommunala bibliotek, antal/inv",1285,Eslöv,2020,2.754
+N09807,"Fysiska besök vid kommunala bibliotek, antal/inv",1285,Eslöv,2021,2.032
+N09807,"Fysiska besök vid kommunala bibliotek, antal/inv",1285,Eslöv,2022,4.041
+N09807,"Fysiska besök vid kommunala bibliotek, antal/inv",1285,Eslöv,2023,3.572
+N09807,"Fysiska besök vid kommunala bibliotek, antal/inv",1285,Eslöv,2024,3.421
+N09807,"Fysiska besök vid kommunala bibliotek, antal/inv",1285,Eslöv,2025,3.663
+N09807,"Fysiska besök vid kommunala bibliotek, antal/inv",1480,Göteborg,2019,7.193
+N09807,"Fysiska besök vid kommunala bibliotek, antal/inv",1480,Göteborg,2020,4.91
+N09807,"Fysiska besök vid kommunala bibliotek, antal/inv",1480,Göteborg,2021,3.841
+N09807,"Fysiska besök vid kommunala bibliotek, antal/inv",1480,Göteborg,2022,5.337
+N09807,"Fysiska besök vid kommunala bibliotek, antal/inv",1480,Göteborg,2023,5.095
+N09807,"Fysiska besök vid kommunala bibliotek, antal/inv",1480,Göteborg,2024,5.191
+N09807,"Fysiska besök vid kommunala bibliotek, antal/inv",1480,Göteborg,2025,5.255
+N09809,"Aktiva låntagare, andel (%) av befolkningen",0180,Stockholm,2019,31.208
+N09809,"Aktiva låntagare, andel (%) av befolkningen",0180,Stockholm,2020,27.927
+N09809,"Aktiva låntagare, andel (%) av befolkningen",0180,Stockholm,2021,25.367
+N09809,"Aktiva låntagare, andel (%) av befolkningen",0180,Stockholm,2022,26.77
+N09809,"Aktiva låntagare, andel (%) av befolkningen",0180,Stockholm,2023,27.0
+N09809,"Aktiva låntagare, andel (%) av befolkningen",0180,Stockholm,2024,26.021
+N09809,"Aktiva låntagare, andel (%) av befolkningen",0180,Stockholm,2025,24.672
+N09809,"Aktiva låntagare, andel (%) av befolkningen",0380,Uppsala,2019,27.689
+N09809,"Aktiva låntagare, andel (%) av befolkningen",0380,Uppsala,2020,26.867
+N09809,"Aktiva låntagare, andel (%) av befolkningen",0380,Uppsala,2021,23.745
+N09809,"Aktiva låntagare, andel (%) av befolkningen",0380,Uppsala,2022,24.466
+N09809,"Aktiva låntagare, andel (%) av befolkningen",0380,Uppsala,2023,24.685
+N09809,"Aktiva låntagare, andel (%) av befolkningen",0380,Uppsala,2024,24.47
+N09809,"Aktiva låntagare, andel (%) av befolkningen",0380,Uppsala,2025,24.293
+N09809,"Aktiva låntagare, andel (%) av befolkningen",1280,Malmö,2019,28.108
+N09809,"Aktiva låntagare, andel (%) av befolkningen",1280,Malmö,2020,26.825
+N09809,"Aktiva låntagare, andel (%) av befolkningen",1280,Malmö,2021,26.354
+N09809,"Aktiva låntagare, andel (%) av befolkningen",1280,Malmö,2022,25.976
+N09809,"Aktiva låntagare, andel (%) av befolkningen",1280,Malmö,2023,26.678
+N09809,"Aktiva låntagare, andel (%) av befolkningen",1280,Malmö,2024,27.003
+N09809,"Aktiva låntagare, andel (%) av befolkningen",1280,Malmö,2025,25.883
+N09809,"Aktiva låntagare, andel (%) av befolkningen",1281,Lund,2019,33.196
+N09809,"Aktiva låntagare, andel (%) av befolkningen",1281,Lund,2020,31.281
+N09809,"Aktiva låntagare, andel (%) av befolkningen",1281,Lund,2021,27.944
+N09809,"Aktiva låntagare, andel (%) av befolkningen",1281,Lund,2022,30.856
+N09809,"Aktiva låntagare, andel (%) av befolkningen",1281,Lund,2023,31.981
+N09809,"Aktiva låntagare, andel (%) av befolkningen",1281,Lund,2024,33.032
+N09809,"Aktiva låntagare, andel (%) av befolkningen",1281,Lund,2025,31.71
+N09809,"Aktiva låntagare, andel (%) av befolkningen",1283,Helsingborg,2019,18.276
+N09809,"Aktiva låntagare, andel (%) av befolkningen",1283,Helsingborg,2020,14.248
+N09809,"Aktiva låntagare, andel (%) av befolkningen",1283,Helsingborg,2021,11.327
+N09809,"Aktiva låntagare, andel (%) av befolkningen",1283,Helsingborg,2022,12.913
+N09809,"Aktiva låntagare, andel (%) av befolkningen",1283,Helsingborg,2023,27.635
+N09809,"Aktiva låntagare, andel (%) av befolkningen",1283,Helsingborg,2024,29.834
+N09809,"Aktiva låntagare, andel (%) av befolkningen",1283,Helsingborg,2025,25.129
+N09809,"Aktiva låntagare, andel (%) av befolkningen",1285,Eslöv,2019,26.387
+N09809,"Aktiva låntagare, andel (%) av befolkningen",1285,Eslöv,2020,22.633
+N09809,"Aktiva låntagare, andel (%) av befolkningen",1285,Eslöv,2021,22.817
+N09809,"Aktiva låntagare, andel (%) av befolkningen",1285,Eslöv,2022,20.092
+N09809,"Aktiva låntagare, andel (%) av befolkningen",1285,Eslöv,2023,20.167
+N09809,"Aktiva låntagare, andel (%) av befolkningen",1285,Eslöv,2024,24.609
+N09809,"Aktiva låntagare, andel (%) av befolkningen",1285,Eslöv,2025,21.121
+N09809,"Aktiva låntagare, andel (%) av befolkningen",1480,Göteborg,2019,31.451
+N09809,"Aktiva låntagare, andel (%) av befolkningen",1480,Göteborg,2020,30.402
+N09809,"Aktiva låntagare, andel (%) av befolkningen",1480,Göteborg,2021,27.394
+N09809,"Aktiva låntagare, andel (%) av befolkningen",1480,Göteborg,2022,28.434
+N09809,"Aktiva låntagare, andel (%) av befolkningen",1480,Göteborg,2023,29.716
+N09809,"Aktiva låntagare, andel (%) av befolkningen",1480,Göteborg,2024,30.068
+N09809,"Aktiva låntagare, andel (%) av befolkningen",1480,Göteborg,2025,29.35
+N09810,"Lån av e-böcker, antal/inv",1280,Malmö,2019,0.363
+N09810,"Lån av e-böcker, antal/inv",1280,Malmö,2020,0.424
+N09810,"Lån av e-böcker, antal/inv",1280,Malmö,2021,0.344
+N09810,"Lån av e-böcker, antal/inv",1280,Malmö,2022,0.356
+N09810,"Lån av e-böcker, antal/inv",1280,Malmö,2023,0.374
+N09810,"Lån av e-böcker, antal/inv",1280,Malmö,2024,0.319
+N09810,"Lån av e-böcker, antal/inv",1280,Malmö,2025,0.248
+N09810,"Lån av e-böcker, antal/inv",1285,Eslöv,2019,0.11
+N09810,"Lån av e-böcker, antal/inv",1285,Eslöv,2020,0.141
+N09810,"Lån av e-böcker, antal/inv",1285,Eslöv,2021,0.124
+N09810,"Lån av e-böcker, antal/inv",1285,Eslöv,2022,0.122
+N09810,"Lån av e-böcker, antal/inv",1285,Eslöv,2023,0.125
+N09810,"Lån av e-böcker, antal/inv",1285,Eslöv,2024,0.116
+N09810,"Lån av e-böcker, antal/inv",1285,Eslöv,2025,0.05
+N09811,"Barnbokslån, antal/barn 0-17 år",0180,Stockholm,2019,10.192
+N09811,"Barnbokslån, antal/barn 0-17 år",0180,Stockholm,2020,7.165
+N09811,"Barnbokslån, antal/barn 0-17 år",0180,Stockholm,2021,7.975
+N09811,"Barnbokslån, antal/barn 0-17 år",0180,Stockholm,2022,10.164
+N09811,"Barnbokslån, antal/barn 0-17 år",0180,Stockholm,2023,10.509
+N09811,"Barnbokslån, antal/barn 0-17 år",0180,Stockholm,2024,11.455
+N09811,"Barnbokslån, antal/barn 0-17 år",0180,Stockholm,2025,12.262
+N09811,"Barnbokslån, antal/barn 0-17 år",0380,Uppsala,2019,17.637
+N09811,"Barnbokslån, antal/barn 0-17 år",0380,Uppsala,2020,16.71
+N09811,"Barnbokslån, antal/barn 0-17 år",0380,Uppsala,2021,14.231
+N09811,"Barnbokslån, antal/barn 0-17 år",0380,Uppsala,2022,14.755
+N09811,"Barnbokslån, antal/barn 0-17 år",0380,Uppsala,2023,17.89
+N09811,"Barnbokslån, antal/barn 0-17 år",0380,Uppsala,2024,18.598
+N09811,"Barnbokslån, antal/barn 0-17 år",0380,Uppsala,2025,20.999
+N09811,"Barnbokslån, antal/barn 0-17 år",1280,Malmö,2019,9.652
+N09811,"Barnbokslån, antal/barn 0-17 år",1280,Malmö,2020,10.877
+N09811,"Barnbokslån, antal/barn 0-17 år",1280,Malmö,2021,9.603
+N09811,"Barnbokslån, antal/barn 0-17 år",1280,Malmö,2022,11.64
+N09811,"Barnbokslån, antal/barn 0-17 år",1280,Malmö,2023,12.859
+N09811,"Barnbokslån, antal/barn 0-17 år",1280,Malmö,2024,13.677
+N09811,"Barnbokslån, antal/barn 0-17 år",1280,Malmö,2025,14.316
+N09811,"Barnbokslån, antal/barn 0-17 år",1281,Lund,2019,20.062
+N09811,"Barnbokslån, antal/barn 0-17 år",1281,Lund,2020,22.52
+N09811,"Barnbokslån, antal/barn 0-17 år",1281,Lund,2021,17.042
+N09811,"Barnbokslån, antal/barn 0-17 år",1281,Lund,2022,20.677
+N09811,"Barnbokslån, antal/barn 0-17 år",1281,Lund,2023,22.338
+N09811,"Barnbokslån, antal/barn 0-17 år",1281,Lund,2024,23.222
+N09811,"Barnbokslån, antal/barn 0-17 år",1281,Lund,2025,23.836
+N09811,"Barnbokslån, antal/barn 0-17 år",1283,Helsingborg,2019,9.473
+N09811,"Barnbokslån, antal/barn 0-17 år",1283,Helsingborg,2020,8.901
+N09811,"Barnbokslån, antal/barn 0-17 år",1283,Helsingborg,2021,7.503
+N09811,"Barnbokslån, antal/barn 0-17 år",1283,Helsingborg,2022,8.431
+N09811,"Barnbokslån, antal/barn 0-17 år",1283,Helsingborg,2023,8.452
+N09811,"Barnbokslån, antal/barn 0-17 år",1283,Helsingborg,2024,9.182
+N09811,"Barnbokslån, antal/barn 0-17 år",1283,Helsingborg,2025,8.402
+N09811,"Barnbokslån, antal/barn 0-17 år",1285,Eslöv,2019,14.593
+N09811,"Barnbokslån, antal/barn 0-17 år",1285,Eslöv,2020,12.47
+N09811,"Barnbokslån, antal/barn 0-17 år",1285,Eslöv,2021,10.194
+N09811,"Barnbokslån, antal/barn 0-17 år",1285,Eslöv,2022,11.69
+N09811,"Barnbokslån, antal/barn 0-17 år",1285,Eslöv,2023,11.054
+N09811,"Barnbokslån, antal/barn 0-17 år",1285,Eslöv,2024,12.919
+N09811,"Barnbokslån, antal/barn 0-17 år",1285,Eslöv,2025,14.049
+N09811,"Barnbokslån, antal/barn 0-17 år",1480,Göteborg,2019,8.685
+N09811,"Barnbokslån, antal/barn 0-17 år",1480,Göteborg,2020,8.057
+N09811,"Barnbokslån, antal/barn 0-17 år",1480,Göteborg,2021,7.55
+N09811,"Barnbokslån, antal/barn 0-17 år",1480,Göteborg,2022,8.193
+N09811,"Barnbokslån, antal/barn 0-17 år",1480,Göteborg,2023,8.502
+N09811,"Barnbokslån, antal/barn 0-17 år",1480,Göteborg,2024,8.712
+N09811,"Barnbokslån, antal/barn 0-17 år",1480,Göteborg,2025,9.643

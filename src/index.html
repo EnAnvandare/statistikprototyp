@@ -1,0 +1,160 @@
+<title>Malmö biblioteksinsikter</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Literata:opsz,wght@7..72,400;7..72,600&family=Public+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style><!-- @styles.css --></style>
+
+<div class="wrap">
+  <header class="top">
+    <div>
+      <h1>Malmö biblioteksinsikter</h1>
+      <p class="sub">En prototyp för att arbeta med biblioteksstatistik i dialog. Utforska vyerna och ställ sedan följdfrågor i panelen.</p>
+    </div>
+    <div class="legend-src" aria-label="Datakällor">
+      <span class="chip ex">Exempeldata i samma form som en export från bibliotekssystemet</span>
+      <span class="chip real">Riktiga offentliga data från Kolada</span>
+    </div>
+  </header>
+
+  <div class="layout">
+    <main style="min-width:0">
+      <div class="tabs" role="tablist" aria-label="Vyer">
+        <button class="tab" role="tab" id="tab-overview" aria-selected="true" aria-controls="overview">Aktivitet</button>
+        <button class="tab" role="tab" id="tab-reach" aria-selected="false" aria-controls="reach">Räckvidd per område</button>
+        <button class="tab" role="tab" id="tab-compare" aria-selected="false" aria-controls="compare">Jämför kommuner</button>
+        <button class="tab" role="tab" id="tab-future" aria-selected="false" aria-controls="future">Framtid</button>
+      </div>
+
+      <section class="view" id="overview" role="tabpanel" aria-labelledby="tab-overview">
+        <p class="lead" id="ov-lead"></p>
+        <div class="tiles" id="ov-tiles"></div>
+        <div class="card" id="trend-card">
+          <div class="card-h">
+            <h2>Aktivitet per månad, jan 2024 till sep 2026</h2>
+            <div class="ctrls">
+              <label class="sr" for="ov-branch" hidden>Bibliotek</label>
+              <select id="ov-branch" aria-label="Bibliotek"></select>
+              <div class="seg" id="ov-metric" role="group" aria-label="Mått">
+                <button type="button" data-m="loans_physical" aria-pressed="true">Lån</button>
+                <button type="button" data-m="visits" aria-pressed="false">Besök</button>
+                <button type="button" data-m="event_participants" aria-pressed="false">Deltagare i program</button>
+              </div>
+            </div>
+          </div>
+          <p class="note"><span class="chip ex">Exempel</span> Fysiska lån inklusive omlån, som i KB:s statistik. Besök kommer från besöksräknare.</p>
+          <div class="chart" id="trend-chart"></div>
+        </div>
+        <div class="card" id="branch-card">
+          <div class="card-h"><h2>Biblioteken, januari till september</h2><span class="chip ex">Exempel</span></div>
+          <p class="note">2026 jämfört med samma månader 2025. Grå förändringar markerade med ≈ ligger inom bibliotekets normala variation. Välj en kolumnrubrik för att sortera.</p>
+          <div class="tbl-wrap"><table id="branch-table"></table></div>
+        </div>
+      </section>
+
+      <section class="view" id="reach" role="tabpanel" aria-labelledby="tab-reach" hidden>
+        <p class="lead" id="rc-lead"></p>
+        <div class="card">
+          <div class="card-h">
+            <h2>Aktiva låntagare som andel av invånarna</h2>
+            <div class="ctrls"><select id="rc-year" aria-label="År"><option value="2025">2025</option><option value="2024">2024</option></select></div>
+          </div>
+          <p class="note"><span class="chip ex">Exempel</span> Låntagare med minst ett lån under året, efter stadsområde där de bor och åldersgrupp, delat med antalet invånare i gruppen. I den riktiga versionen kommer båda talen aggregerade från bibliotekssystemet och Malmös områdesstatistik, utan att några uppgifter om enskilda lämnar bibliotekssystemet.</p>
+          <div class="tbl-wrap"><table class="heat" id="heat"></table></div>
+        </div>
+        <div class="two">
+          <div class="card">
+            <div class="card-h"><h2>Räckvidd per åldersgrupp över tid</h2><span class="chip ex">Exempel</span></div>
+            <p class="note">Hela Malmö. 2026 avser januari till september och ligger därför lägre tills året är slut.</p>
+            <div class="chart" id="age-chart"></div>
+          </div>
+          <div class="card">
+            <div class="card-h"><h2>Så skulle det fungera på riktigt</h2></div>
+            <div class="callout"><b>Inbyggt dataskydd.</b> Bibliotekssystemet aggregerar låntagare per hemområde och åldersgrupp före export. Grupper med färre än 10 personer visas inte. Lånehistorik lämnar aldrig bibliotekssystemet, och AI:n ser bara de aggregerade tabellerna.</div>
+            <p class="note" style="margin-top:10px">För Eslöv fungerar samma vy med SCB:s DeSO-områden i stället för Malmös stadsområden.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="view" id="compare" role="tabpanel" aria-labelledby="tab-compare" hidden>
+        <p class="lead" id="cp-lead"></p>
+        <div class="card">
+          <div class="card-h">
+            <h2 id="cp-title">Nyckeltal i Kolada</h2>
+            <div class="ctrls"><select id="cp-kpi" aria-label="Nyckeltal"></select></div>
+          </div>
+          <p class="note"><span class="chip real">Kolada</span> Källa: Kungliga biblioteket och SCB via Kolada, 2019 till 2025. Malmö och Eslöv framhävda.</p>
+          <div class="chart" id="cp-chart"></div>
+        </div>
+        <div class="card">
+          <div class="card-h"><h2>2025 i korthet</h2><span class="chip real">Kolada</span></div>
+          <div class="tbl-wrap"><table id="cp-table"></table></div>
+        </div>
+      </section>
+      <section class="view" id="future" role="tabpanel" aria-labelledby="tab-future" hidden>
+        <p class="lead" id="fu-lead"></p>
+        <div class="card">
+          <div class="card-h">
+            <h2>Befolkning per åldersgrupp, 2025 = 100</h2>
+            <div class="ctrls"><select id="fu-kommun" aria-label="Kommun"><option>Malmö</option><option>Eslöv</option></select></div>
+          </div>
+          <p class="note"><span class="chip real">SCB</span> SCB:s regionala framskrivning från 2024. En framskrivning förlänger dagens trender och räknar inte med planerat bostadsbyggande.</p>
+          <div class="chart" id="fu-pop-chart"></div>
+        </div>
+        <div class="card">
+          <div class="card-h">
+            <h2>Förväntade aktiva låntagare</h2>
+            <div class="seg" id="fu-scen" role="group" aria-label="Scenario">
+              <button type="button" data-s="same" aria-pressed="true">Oförändrat beteende</button>
+              <button type="button" data-s="trend" aria-pressed="false">Trenden fortsätter</button>
+              <button type="button" data-s="goal" aria-pressed="false">Egna mål</button>
+            </div>
+          </div>
+          <p class="note" id="fu-scen-note"></p>
+          <div id="fu-goals" hidden></div>
+          <div class="tbl-wrap"><table id="fu-table"></table></div>
+          <p class="note" style="margin-top:10px"><span class="chip ex">Exempel</span> Räckvidden per åldersgrupp är exempeldata. Befolkningen är SCB:s riktiga framskrivning. Spannet visar hur mycket SCB:s två senaste framskrivningar skiljer sig åt, minst ±2 % per fem år.</p>
+        </div>
+        <div class="two">
+          <div class="card">
+            <div class="card-h"><h2>Vad det kan betyda för verksamheten</h2></div>
+            <ul class="impl" id="fu-impl"></ul>
+          </div>
+          <div class="card">
+            <div class="card-h"><h2>Hur mycket ändras prognoserna?</h2><span class="chip real">SCB</span></div>
+            <p class="note">Malmö: SCB:s framskrivning från 2022 jämfört med den från 2024, för samma år.</p>
+            <div class="tbl-wrap"><table id="fu-rev"></table></div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <aside class="ai" id="ai" aria-label="Fråga om siffrorna">
+      <div class="ai-h">
+        <h2>Fråga siffrorna</h2>
+        <p>AI:n svarar genom att fråga tabellerna på sidan och visar hur den räknat.</p>
+      </div>
+      <div class="log" id="log" aria-live="polite"></div>
+      <details class="method"><summary>Så bedöms tillförlitligheten</summary>
+        <ul>
+          <li><b>Tillförlitligt</b>: tillräckligt med data, och en eventuell förändring är tydligt större än den normala variationen.</li>
+          <li><b>Indikation</b>: pekar åt ett håll men kan delvis vara slump, gäller del av en period eller visar ett mönster mellan områden.</li>
+          <li><b>Osäkert</b>: för få personer eller händelser, eller så ligger förändringen inom det som normalt händer ändå.</li>
+          <li>Grupper med färre än 10 personer redovisas aldrig. Mönster mellan områden behandlas aldrig som orsaker eller som fakta om enskilda.</li>
+        </ul>
+      </details>
+      <div class="sugg" id="sugg"></div>
+      <div class="composer">
+        <textarea id="q" rows="1" placeholder="Skriv din fråga" aria-label="Din fråga"></textarea>
+        <button class="btn" id="send" type="button">Fråga</button>
+        <button class="btn ghost" id="stop" type="button" hidden>Stoppa</button>
+      </div>
+    </aside>
+  </div>
+
+  <footer class="foot">
+    Riktiga siffror: <a href="https://www.kolada.se" target="_blank" rel="noopener">Kolada</a> (Kungliga biblioteket, SCB), hämtade i oktober 2026. Bibliotekens namn från offentliga förteckningar. Alla siffror per bibliotek, område och digital användning är påhittade exempeldata kalibrerade mot Malmös totaler i Kolada, endast för demonstration.
+  </footer>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js"></script>
+<script><!-- @app.js --></script>

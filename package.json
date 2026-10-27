@@ -1,0 +1,15 @@
+{
+  "name": "bibliotek-insikter",
+  "version": "0.4.0",
+  "private": true,
+  "description": "Prototyp: biblioteksstatistik för Malmö och Eslöv med en AI-panel som svarar genom att fråga datan.",
+  "type": "module",
+  "engines": { "node": ">=18" },
+  "scripts": {
+    "dev": "node server.mjs --watch",
+    "start": "node server.mjs",
+    "build": "node scripts/build.mjs",
+    "fetch:kolada": "node scripts/fetch-kolada.mjs",
+    "fetch:scb": "node scripts/fetch-scb-projection.mjs"
+  }
+}
