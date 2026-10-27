@@ -72,7 +72,8 @@ const server = http.createServer(async (req, res) => {
           model: MODEL,
           messages,
           ...(tools?.length ? { tools, tool_choice: "auto" } : {}),
-          temperature: 0.2,
+          // Temperatur skickas bara om den är satt: nyare Claude-modeller avvisar värden under 1.
+          ...(process.env.LLM_TEMPERATURE ? { temperature: Number(process.env.LLM_TEMPERATURE) } : {}),
           max_tokens: 2000,
         }),
       });

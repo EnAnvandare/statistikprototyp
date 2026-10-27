@@ -85,7 +85,9 @@ Skripten kunde inte köras i miljön där de skrevs (API:erna var inte nåbara d
 Lägg till ett objekt i listan `TOOLS` i `app.js` med `name`, `description` (på engelska, för modellen), `inputSchema` (JSON Schema) och `execute(input)` som returnerar små, aggregerade data. Nämn verktyget i `RULES` om modellen behöver veta när det ska användas.
 
 ### Byta AI-modell
-Ändra `LLM_MODEL` i `.env`. Förslag hos Berget: `moonshotai/Kimi-K3` (bäst på verktygsanrop i flera steg) eller `google/gemma-4-31B-it` (billigare, bra svenska). Testa med samma frågor och jämför – särskilt att siffrorna stämmer och att tillförlitlighetsraden kommer med.
+Ändra `LLM_MODEL` i `.env`. För att köra med Claude lokalt: använd Claude API (nyckel från console.anthropic.com) med `LLM_BASE_URL=https://api.anthropic.com/v1`, till exempel `LLM_MODEL=claude-sonnet-5-5`, och ta bort `LLM_TEMPERATURE` (se `.env.example`). En Claude Code-prenumeration ger inte API-åtkomst; API:t faktureras separat.
+
+Förslag hos Berget: `moonshotai/Kimi-K3` (bäst på verktygsanrop i flera steg) eller `google/gemma-4-31B-it` (billigare, bra svenska). Testa med samma frågor och jämför – särskilt att siffrorna stämmer och att tillförlitlighetsraden kommer med.
 
 ### Publicera som Claude-artefakt igen
 Kör `npm run build` och ladda upp `dist/index.html` i ett samtal med Claude, och be om att uppdatera artefakten "Malmö biblioteksinsikter". Sidan behöver behörigheten att fråga Claude (`sample`).
