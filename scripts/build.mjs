@@ -1,5 +1,5 @@
 // Bygger dist/index.html: en enda fristående HTML-fil (krav för Claude-artefakter).
-// Läser src/index.html, src/styles.css, src/llm-shim.js, src/app.js och allt i data/.
+// Läser src/index.html, src/styles.css, src/llm-shim.js, src/core.js, src/app.js och allt i data/.
 //   node scripts/build.mjs            → dist/index.html
 //   node scripts/build.mjs --watch    → bygger om vid varje ändring i src/ eller data/
 import fs from "node:fs";
@@ -51,11 +51,12 @@ export function buildData() {
 
 export function build() {
   const data = JSON.stringify(buildData());
-  const app = read("src/app.js").replace("__DATA__", () => data);
+  const core = read("src/core.js").replace("__DATA__", () => data);
+  const app = read("src/app.js");
   const shim = read("src/llm-shim.js");
   const html = read("src/index.html")
     .replace("<!-- @styles.css -->", () => "\n" + read("src/styles.css"))
-    .replace("<!-- @app.js -->", () => "\n" + shim + "\n" + app);
+    .replace("<!-- @app.js -->", () => "\n" + shim + "\n" + core + "\n" + app);
   fs.mkdirSync(p("dist"), { recursive: true });
   fs.writeFileSync(p("dist/index.html"), html);
   return html.length;
