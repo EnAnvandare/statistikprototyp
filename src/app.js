@@ -319,7 +319,7 @@ async function ask(text){
   }finally{setBusy(false);ctl=null;log.scrollTop=log.scrollHeight;}
 }
 function disableAI(msg){document.querySelector(".composer").hidden=true;sugg.hidden=true;const d=document.createElement("p");d.className="ai-off";d.textContent=msg||"Det går inte att fråga AI:n i den här vyn. Själva dashboarden fungerar som vanligt.";log.after(d);}
-function autosize(){q.style.height="auto";q.style.height=Math.min(140,q.scrollHeight)+"px";}
+function autosize(){q.style.height="";if(!q.value)return;q.style.height="auto";q.style.height=Math.min(140,Math.max(42,q.scrollHeight+2))+"px";}
 q.addEventListener("input",autosize);
 q.addEventListener("keydown",e=>{if(e.key==="Enter"&&!e.shiftKey){e.preventDefault();ask(q.value);}});
 send.addEventListener("click",()=>ask(q.value));

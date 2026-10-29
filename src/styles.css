@@ -29,6 +29,7 @@ h1{font-family:var(--f-display);font-weight:600;font-size:clamp(1.6rem,3vw,2.2re
 .legend-src{display:flex;flex-wrap:wrap;gap:8px}
 .chip{display:inline-flex;align-items:center;gap:6px;font-size:12px;font-weight:500;padding:3px 9px;border-radius:999px;white-space:nowrap}
 .chip::before{content:"";width:7px;height:7px;border-radius:50%;background:currentColor}
+.legend-src .chip{white-space:normal}
 .chip.ex{background:var(--ochre-soft);color:var(--warn)}
 .chip.real{background:var(--accent-soft);color:var(--accent)}
 .layout{display:grid;grid-template-columns:minmax(0,1fr);gap:20px}
@@ -80,8 +81,10 @@ tbody tr:hover{background:var(--sunk)}
 .callout{border-left:3px solid var(--ochre);background:var(--ochre-soft);padding:10px 14px;border-radius:0 8px 8px 0;font-size:13.5px}
 .callout b{font-weight:600}
 /* AI panel */
-aside.ai{background:var(--panel);border:1px solid var(--line);border-radius:var(--r);display:flex;flex-direction:column;min-height:540px;max-height:calc(100vh - 32px);position:relative}
-@media (min-width:1100px){aside.ai{position:sticky;top:max(16px,env(safe-area-inset-top,0px));height:calc(100vh - 48px)}}
+/* Frågerutan ligger överst i panelen. På smala skärmar ligger hela panelen före diagrammen, så att rutan syns direkt. */
+aside.ai{background:var(--panel);border:1px solid var(--line);border-radius:var(--r);display:flex;flex-direction:column;position:relative}
+@media (min-width:1100px){aside.ai{position:sticky;top:max(16px,env(safe-area-inset-top,0px));height:calc(100vh - 48px);min-height:540px;max-height:calc(100vh - 32px)}}
+@media (max-width:1099.98px){aside.ai{order:-1}aside.ai .log{max-height:55vh}}
 .ai-h{padding:14px 16px 10px;border-bottom:1px solid var(--line)}
 .ai-h h2{font-family:var(--f-display);font-weight:600;font-size:1.15rem;margin:0}
 .ai-h p{margin:2px 0 0;color:var(--muted);font-size:13px}
@@ -112,17 +115,18 @@ td.noise::after{content:" ≈";}
 .relchip.r2{color:var(--good)} .relchip.r1{color:var(--warn)} .relchip.r0{color:var(--bad)}
 ul.impl{margin:0;padding-left:18px;display:grid;gap:8px;font-size:14px}
 ul.impl b{font-weight:600}
-details.method{font-size:12.5px;color:var(--muted);padding:0 16px 8px}
+details.method{font-size:12.5px;color:var(--muted);padding:8px 16px;border-top:1px solid var(--line)}
 details.method summary{cursor:pointer}
 details.method ul{margin:6px 0 0;padding-left:18px}
 details.calc{margin-top:8px;font-size:12.5px;background:var(--sunk);border-radius:8px;padding:6px 10px}
 details.calc summary{cursor:pointer;color:var(--muted)}
 details.calc code{display:block;font-family:var(--f-data);font-size:11.5px;white-space:pre-wrap;word-break:break-word;margin-top:6px;color:var(--fg)}
-.sugg{display:flex;flex-wrap:wrap;gap:6px;padding:0 16px 10px}
+.sugg{display:flex;flex-wrap:wrap;gap:6px;padding:0 16px 12px;border-bottom:1px solid var(--line)}
 .sugg button{appearance:none;border:1px solid var(--line);background:var(--bg);color:var(--fg);font:inherit;font-size:12.5px;padding:5px 10px;border-radius:999px;cursor:pointer;text-align:left}
 .sugg button:hover{border-color:var(--accent)}
-.composer{border-top:1px solid var(--line);padding:10px 12px;display:flex;gap:8px;align-items:flex-end}
-.composer textarea{flex:1;min-width:0;resize:none;font:inherit;font-size:14px;color:var(--fg);background:var(--sunk);border:1px solid var(--line);border-radius:8px;padding:8px 10px;min-height:42px;max-height:140px}
+.composer{padding:12px 12px 10px;display:flex;gap:8px;align-items:flex-end}
+.composer .btn{height:42px}
+.composer textarea{flex:1;min-width:0;resize:none;font:inherit;font-size:14px;color:var(--fg);background:var(--sunk);border:1px solid var(--line);border-radius:8px;padding:8px 10px;box-sizing:border-box;height:42px;min-height:42px;max-height:140px;line-height:1.4}
 .btn{appearance:none;border:0;background:var(--accent);color:var(--bg);font:inherit;font-weight:600;font-size:14px;padding:9px 14px;border-radius:8px;cursor:pointer}
 .btn[disabled]{opacity:.5;cursor:default}
 .btn.ghost{background:var(--sunk);color:var(--fg)}

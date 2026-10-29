@@ -133,6 +133,12 @@
         <h2>Fråga siffrorna</h2>
         <p>AI:n svarar genom att fråga tabellerna på sidan och visar hur den räknat.</p>
       </div>
+      <div class="composer">
+        <textarea id="q" rows="1" placeholder="Skriv din fråga om statistiken" aria-label="Din fråga"></textarea>
+        <button class="btn" id="send" type="button">Fråga</button>
+        <button class="btn ghost" id="stop" type="button" hidden>Stoppa</button>
+      </div>
+      <div class="sugg" id="sugg"></div>
       <div class="log" id="log" aria-live="polite"></div>
       <details class="method"><summary>Så bedöms tillförlitligheten</summary>
         <ul>
@@ -142,12 +148,6 @@
           <li>Grupper med färre än 10 personer redovisas aldrig. Mönster mellan områden behandlas aldrig som orsaker eller som fakta om enskilda.</li>
         </ul>
       </details>
-      <div class="sugg" id="sugg"></div>
-      <div class="composer">
-        <textarea id="q" rows="1" placeholder="Skriv din fråga" aria-label="Din fråga"></textarea>
-        <button class="btn" id="send" type="button">Fråga</button>
-        <button class="btn ghost" id="stop" type="button" hidden>Stoppa</button>
-      </div>
     </aside>
   </div>
 
